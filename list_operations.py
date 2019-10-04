@@ -68,7 +68,7 @@ def init(input_list):
 
     """
 
-    return input_list[0:2]
+    return input_list[:2]
 
 
 ##############################################################################
@@ -84,7 +84,7 @@ def first_three(input_list):
 
     """
 
-    return input_list[0:3]
+    return input_list[:3]
 
 
 def last_five(input_list):
